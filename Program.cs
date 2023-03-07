@@ -15,5 +15,5 @@ while (!sr.EndOfStream)
     BolsaFamilia bf = new BolsaFamilia(line);
     bolsas.Add(bf);
 }
-Console.WriteLine("Quant pobres totais beneficiados: " + bolsas.Sum(e => e.PobresNaRegiao));
 
+// Coloque as querys aqui ⬇
